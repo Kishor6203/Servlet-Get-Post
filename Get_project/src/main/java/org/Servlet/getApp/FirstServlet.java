@@ -37,7 +37,7 @@ public class FirstServlet extends HttpServlet
 			PrintWriter out = resp.getWriter();
 			if(rs.next())
 			{
-				String nm = rs.getString("Name"); // Pramod
+				String nm = rs.getString("Name"); // Abc
 //				String dp = rs.getString("Dept"); // EACE
 				double pr = rs.getDouble("Perc"); // 79.80
 				
