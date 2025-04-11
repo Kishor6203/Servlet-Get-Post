@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Form</title>
+    <style>
+        body {
+            background-color: cyan;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        form {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        td {
+            padding: 8px;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+            font-size: 14px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        td:first-child {
+            text-align: right;
+            font-weight: bold;
+            padding-right: 10px;
+        }
+
+        td:last-child {
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="fs" method="post">
+        <h2>Student Information</h2>
+        <table>
+            <tr>
+                <td>Id:</td>
+                <td><input type="text" name="i"></td>
+            </tr>
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" name="nm"></td>
+            </tr>
+            <tr>
+                <td>Dept:</td>
+                <td><input type="text" name="dp"></td>
+            </tr>
+            <tr>
+                <td>Perc:</td>
+                <td><input type="text" name="pr"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="POST">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
