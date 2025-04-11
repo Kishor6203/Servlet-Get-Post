@@ -7,7 +7,7 @@
 
     <servlet>
         <servlet-name>FirstServlet</servlet-name>
-        <servlet-class>org.jspiders.getApp.FirstServlet</servlet-class>
+        <servlet-class>org.Servlet.getApp.FirstServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
