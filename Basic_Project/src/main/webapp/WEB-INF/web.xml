@@ -12,6 +12,6 @@
   
   <servlet>
   <servlet-name>FirstServlet</servlet-name>
-  <servlet-class>org.jspiders.BasicApp.FirstServlet</servlet-class>
+  <servlet-class>org.servlet.BasicApp.FirstServlet</servlet-class>
   </servlet>
 </web-app>
