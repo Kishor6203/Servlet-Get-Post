@@ -1,3 +1,7 @@
-Servlet GET and POST Methods Example
+Java Servlet: GET and POST Methods Example
 
-This repository provides an example of how to handle HTTP GET and POST requests in a Java servlet. It demonstrates how to set up a simple servlet-based application using Java EE (Jakarta EE) and how to use the doGet() and doPost() methods to process incoming requests from clients.
+This project demonstrates how to handle GET and POST HTTP methods in a Java Servlet. It shows a simple example of how to process both types of requests, providing a foundation for building more complex web applications using Java Servlets.
+
+Key Concepts
+doGet(): Handles HTTP GET requests, typically for retrieving information.
+doPost(): Handles HTTP POST requests, typically for submitting data to the server.
